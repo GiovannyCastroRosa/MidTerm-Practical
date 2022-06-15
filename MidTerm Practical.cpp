@@ -24,7 +24,7 @@ void Print() {
 	{
 	case 0:
 	{
-		std::cout << "1." << asw.dAnswer[4] << '\n' << "2." << asw.dAnswer[6] << '\n' << "3." << asw.dAnswer[8] << '\n' << "4." << asw.dAnswer[7] << std::endl;
+		std::cout << "1." << asw.dAnswer[4] << '\n' << "2." << asw.dAnswer[6] << '\n' << "3." << asw.dAnswer[5] << '\n' << "4." << asw.dAnswer[7] << std::endl;
 		std::cout << "pick a number >> " << '\0';
 		std::cin >> right;
 		if (right == 1)
